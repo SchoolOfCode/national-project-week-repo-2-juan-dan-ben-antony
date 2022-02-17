@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# CampFire - An app for bootcampers to reflect on their learnings, provide feedback and track their progress.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CampFire is an app created by Juan Castel, Dan Sutton, Ben Holloway and
+[Antony Parnell](https://www.linkedin.com/in/antony-parnell-18b67165/) for our one week project during the School of Code.
 
-## Available Scripts
+See our app here: https://campfire-app.netlify.app/
 
-In the project directory, you can run:
+Fill out and submit the form and you will be taken to a dashboard showing the a week in the life of a theoretical bootcamper, with
+the colours of the days correllating to how they were rated. In one week, we put together a full stack app, with a prototype dashboard that
+is responsive to data input in the survey form.
 
-### `npm start`
+## Documentation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Planning
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Planning documents](https://github.com/SchoolOfCode/national-project-week-juan-dan-ben-antony/tree/main/planning)
 
-### `npm test`
+We spent the first day of our week purely planning out our project. Our challenge was to come up with something to improve the life of a bootcamper. After discussing with ourselves and other students,
+we decided to create an app to improve the user experience for providing feedback and recording reflections. Some of the techniques and tools we used in our inital planning:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Disney Ideation
+- Miro board for wireframing / researching other apps for inspiration
+- Figma for lofi/hifi designs
 
-### `npm run build`
+### Tech stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+We decided on the following technologies to create our app:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React
+- Node.js
+- Postgres
+- Heroku
+- Netlify
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We opted for a back end made in Node.js, using Postgres for a database and deploying this to Heroku. The Front end was
+made seperately in React and deployed to Netlify. This allowed clean seperation of these functions in our codebase, with
+the react front end updating and fetching from our database as required.
 
-### `npm run eject`
+### Work flow
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+We used Trello to manage the project and split tasks into manageable tickets. As a team of 4, we would begin the day with a stand up, then split off
+and use pair programming to work on tickets. We would catch up regularly and end the day with a retro to make sure everyone was clear with progress,
+and make sure each member of the team got a chance to work on all aspects of the project.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Lessons Learned
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Deploy early and keep iterating
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+We made sure to get our front end and back end deployed as soon as possible, and this was invaluable in letting us have things progress smoothly for the week. By making small, manageable changes we were able to maintain a stable backend and front end that integrated smoothly.
 
-## Learn More
+### Don't underestimate a task
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Some of the tickets we thought would be simple proved to be a lot tougher than anticipated. For example, getting buttons to add text to input fields seemed easy, but having it intergrate smoothly with normal typing inputs as well proved to be a bigger challenge than expected!
