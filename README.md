@@ -1,7 +1,7 @@
 # CampFire - An app for bootcampers to reflect on their learnings, provide feedback and track their progress.
 
 CampFire is an app created by Juan Castel, Dan Sutton, Ben Holloway and
-[Antony Parnell](https://www.linkedin.com/in/antony-parnell-18b67165/) for our one week project during the School of Code.
+[Antony Parnell](https://www.linkedin.com/in/antony-parnell/) for our one week project during the School of Code.
 
 See our app here: https://campfire-app.netlify.app/
 
